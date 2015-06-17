@@ -19,6 +19,10 @@ h1, h2 {
   color: #441111;
 }
 
+h1 {
+  margin-left: 32px;
+}
+
 h2 {
   text-align: center;
 }
@@ -29,6 +33,7 @@ p, aside {
 
 #so-much {
   text-align: right;
+  margin-right: 36px;
 }
 
 aside {
@@ -71,6 +76,7 @@ figcaption {
   }
   #so-much {
     text-align: center;
+    margin-right: 0;
   }
   aside {
     display: block;
@@ -81,6 +87,7 @@ figcaption {
     text-align: center;
     font-size: 36px;
     margin-bottom: 12px;
+    margin-left: 0;
   }
   h2 {
     font-size: 32px;
