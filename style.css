@@ -9,12 +9,68 @@
 
 body {
   font-family: 'Perpetua Titling MT Light', serif;
+  padding-top: 18px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 h1, h2 {
   font-weight: normal;
+  color: #441111;
+}
+
+h2 {
+  text-align: center;
+}
+
+p, aside {
+  color: #556b30;
+}
+
+#so-much {
+  text-align: right;
+}
+
+aside {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 18px;
 }
 
 img {
-  width: 200px;
+  width: 80%;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #d9a527;
+}
+
+figcaption {
+  color: #b64325;
+  font-size: 18px;
+  margin-top: 6px;
+  width: 80%;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.bio p {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 870px) {
+  .u-pull-right { float: right; }
+  .u-pull-left { float: left; }
+}
+
+@media screen and (max-width: 870px) {
+  img {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }

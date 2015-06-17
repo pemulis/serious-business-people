@@ -1,24 +1,45 @@
 <html>
   <head>
-    <title>Serious Business People - Design and code for discerning clients.</title>
+    <title>Serious Business People - Code and design for discerning clients.</title>
+    <link rel='stylesheet' type='text/css' href='min.css'>
     <link rel='stylesheet' type='text/css' href='style.css'>
   </head>
   <body>
     <h1>Serious Business People</h1>
-    <aside>So Serious</aside>
-    <aside>So Business</aside>
-    <aside>So People</aside>
-    <section class='bio' id='john'>
-      <img src='img/john.jpg'>
-      <caption>John</caption>
-      <h2>Code Stuff</h2>
-      <p>...</p>
-    </section>
-    <section class='bio' id='janet'>
-      <img src='img/janet.jpg'>
-      <caption>Janet</caption>
-      <h2>Janet Stuff</h2>
-      <p>...</p>
-    </section>
+    <div class='row'>
+      <section id='so-much'>
+        <aside>So Serious</aside>
+        <aside>So Business</aside>
+        <aside>So People</aside>
+      </section>
+    </div>
+    <div class='row bio' id='john'>
+      <div class='col c8 u-pull-right'>
+        <h2>Code Stuff</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        </p>
+      </div>
+      <div class='col c4 u-pull-left'>
+        <figure>
+          <img src='img/john.jpg'>
+          <figcaption>John</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class='row bio' id='janet'>
+      <div class='col c8'>
+        <h2>Design Stuff</h2>
+        <p>
+          Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
+        </p>
+      </div>
+      <div class='col c4'>
+        <figure class='u-pull-right'>
+          <img src='img/janet.jpg'>
+          <figcaption>Janet</figcaption>
+        </figure>
+      </div>
+    </div>
   </body>
 </html>
