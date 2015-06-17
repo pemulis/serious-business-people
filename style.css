@@ -74,3 +74,24 @@ figcaption {
     margin-right: 3%;
   }
 }
+
+@media screen and (max-width: 870px) {
+  #so-much {
+    text-align: center;
+  }
+  aside {
+    display: block;
+    padding-top: 12px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    text-align: justify;
+  }
+}
