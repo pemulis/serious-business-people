@@ -40,8 +40,6 @@ aside {
 img {
   width: 80%;
   min-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
   border: 2px solid #d9a527;
 }
 
@@ -51,8 +49,6 @@ figcaption {
   margin-top: 6px;
   width: 80%;
   min-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -68,14 +64,11 @@ figcaption {
 }
 
 @media screen and (max-width: 870px) {
-  img {
+  img, figcaption {
     width: 94%;
     margin-left: 3%;
     margin-right: 3%;
   }
-}
-
-@media screen and (max-width: 870px) {
   #so-much {
     text-align: center;
   }
