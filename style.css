@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Perpetua Titling MT Light';
+  src: url('fonts/Perpetua Titling MT Light.eot');
+  src: url('fonts/Perpetua Titling MT Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Perpetua Titling MT Light.woff2') format('woff2'),
+       url('fonts/Perpetua Titling MT Light.woff') format('woff'),
+       url('fonts/Perpetua Titling MT Light.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Perpetua Titling MT Light', serif;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+img {
+  width: 200px;
+}
