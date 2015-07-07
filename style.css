@@ -25,10 +25,11 @@ h1 {
 
 h2 {
   text-align: center;
+  color: #441111;
 }
 
 p, aside {
-  color: #556b30;
+  color: #441111;
 }
 
 #so-much {
@@ -94,5 +95,6 @@ figcaption {
   }
   p {
     text-align: justify;
+    color: #556B30;
   }
 }
