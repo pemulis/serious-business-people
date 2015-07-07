@@ -97,4 +97,8 @@ figcaption {
     text-align: justify;
     color: #556B30;
   }
+
+a {
+  text-decoration: none;
+  color: #3e531b;
 }
